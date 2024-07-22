@@ -1,10 +1,9 @@
-print('Введите 3 любых числа:')
-a = input('Введите число:')
-b = input('Введите число:')
-c = input('Введите число:')
-if a == b and b == c:
+first = input('Введите число:')
+second = input('Введите число:')
+third = input('Введите число:')
+if first == second and second == third:
     print(3)
-elif a == b or b == c or a == c:
+elif first == second or second == third or first == third:
     print(2)
 else:
     print(0)
